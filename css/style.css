@@ -138,6 +138,7 @@ p {
         padding: 30px;
         height: 750px;
     }
+
     
     .header img {
         
@@ -206,7 +207,7 @@ p {
         
         padding: 30px;
     }
-    
+}
 @media (min-width: 576px) and (max-width: 768px) {
      #firm {
 
@@ -275,7 +276,7 @@ p {
         padding: 30px;
     }
     
-    .goal {
+.goal {
         
         width: 80%;
         margin-left: 25px;
