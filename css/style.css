@@ -211,10 +211,10 @@ p {
 @media (min-width: 576px) and (max-width: 768px) {
      #firm {
 
-        padding-right: 30px;
+        padding-right: 50px;
         }
         .services {
-            margin-right: 30px;
+            margin-right: 20px;
         }
 }
 
