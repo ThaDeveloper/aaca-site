@@ -274,7 +274,8 @@
         <div class="row">
             <h2 class="wow fadeInUp">Contact</h2>
             <p class="wow fadeInUp" data-wow-delay="0.4">Send us a message, or contact us from the address below</p>
-            <form id="contactus" action="<?= htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="post" class="form-horizontal">
+            <div class="success"><?= $success ?></div>
+            <form id="contactus" action="<?= htmlspecialchars($_SERVER['PHP_SELF']) ?>#contact" method="post" class="form-horizontal">
             <div class="col-md-6 col-sm-6">
                 <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="0.8s">
                     <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-user" aria-hidden="true"></i></span>
@@ -298,7 +299,7 @@
                 </div>
                 <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" class="btn btn-lg wow fadeInUp" data-wow-delay="2.4s">Submit Your Message</button>
             </div>
-             <div class="success"><?= $success ?></div>
+             
             </form>
         </div>
     </div>
